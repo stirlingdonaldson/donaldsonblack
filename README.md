@@ -1,4 +1,4 @@
-# donaldsonBlack
+# donaldsonblack
 > Our own personal web-based portfolio 
 
 ## Introduction
