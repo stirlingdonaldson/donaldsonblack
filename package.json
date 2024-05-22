@@ -1,0 +1,14 @@
+{
+  "name": "donaldsonblack",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+	"scripts": {
+		"start": "bun --hot run src/index.ts"
+	},
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
