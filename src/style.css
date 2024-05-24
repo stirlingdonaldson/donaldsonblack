@@ -1,13 +1,14 @@
 html,body{
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 	background-color: #0f0f0f;
 }
 
 nav {
 	position: fixed;
 	top: 0;
-	width: 100;
+	width: 100%;
 	padding: 3em;
 	display: flex;
 	justify-content: space-between;
@@ -19,7 +20,14 @@ nav {
 	gap: 3em;
 }
 
+a {
+	text-decoration: none;
+	color: #a9a9a9;
+}
 
+.cta {
+	padding-right: 16%;
+}
 
 
 
