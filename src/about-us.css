@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+    }
   
   html,
   body {
@@ -121,25 +121,35 @@
     height: 100px;
   }
   
+
 /* Mobile styles */
+
+/*
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+} 
+*/
 
 /* Tablet styles */
+
+/*
 @media (min-width: 600px) {
   body {
     flex-direction: row;
     justify-content: space-around;
   }
 }
+*/
 
 /* Desktop styles */
+
+/*
 @media (min-width: 900px) {
   body {
     justify-content: space-between;
   }
 }
+*/
   
