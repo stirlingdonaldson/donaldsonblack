@@ -14,5 +14,12 @@ nav {
 	align-items: center;
 }
 
+.links {
+	display: flex;
+	gap: 3em;
+}
+
+
+
 
 
