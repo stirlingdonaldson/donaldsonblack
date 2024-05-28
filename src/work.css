@@ -39,7 +39,7 @@
   .pages {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     gap: 0.5em;
   }
   
