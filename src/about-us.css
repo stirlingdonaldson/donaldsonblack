@@ -122,6 +122,12 @@
   }
   
 
+  .hero .active {
+    /* text-decoration: underline; */
+    color: antiquewhite;
+    font-size: larger;
+  }
+  
 /* Mobile styles */
 
 /*

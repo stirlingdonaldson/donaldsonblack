@@ -32,9 +32,15 @@ a {
 .hero {
 	height: 100vh;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
 
+.hero .active {
+	/* text-decoration: underline; */
+	color: antiquewhite;
+	font-size: larger;
+}
 
 

@@ -39,7 +39,9 @@ a {
 }
 
 .hero .active {
-	text-decoration: underline;
+	/* text-decoration: underline; */
+	color: antiquewhite;
+	font-size: larger;
 }
 
 
