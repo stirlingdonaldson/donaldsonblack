@@ -45,10 +45,30 @@ a {
 }
 
 .hero a {
-	transition: transform 1s;
+	transition: transform 0.22s;
 }
 
 .hero a:hover {
-	transform: 
-	rotateY(360deg);
+	transform: scale(1.2);
 }
+
+
+/* HERO-2 */
+
+.hero-2 {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.hero-2 ul li {
+	font-size: xx-large;
+	text-decoration: none;
+	list-style-type: none;
+	text-decoration-line: none;
+	color: #a9a9a9;
+}
+
