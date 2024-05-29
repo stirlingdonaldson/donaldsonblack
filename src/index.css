@@ -35,6 +35,7 @@ a {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	
 }
 
 .hero .active {
@@ -43,4 +44,11 @@ a {
 	font-size: larger;
 }
 
+.hero a {
+	transition: transform ease-in-out 1s;
+}
 
+.hero a:hover {
+	transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+	transform: rotateX(360deg);
+}
