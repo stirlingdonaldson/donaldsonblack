@@ -4,9 +4,10 @@ import { useState } from "react";
 interface Props {
     items: string[];
     heading: string;
+    OnSelectItem: (item: string) => void; // onClick
 }
 
-function ListGroup({items, heading}: Props) {
+function ListGroup({items, heading, OnSelectItem }: Props) {
 
     
     
@@ -26,7 +27,10 @@ function ListGroup({items, heading}: Props) {
                     <li 
                         className={ selectedIndex === index ? 'list-group-item active' : 'list-group-item'} // way to add class dynamically
                         key={item} 
-                        onClick={() => setSelectedIndex(index)}> 
+                        onClick={() => {
+                            setSelectedIndex(index);
+                            OnSelectItem(item);
+                        }}> 
                         
                         {item}
                     </li>) 
