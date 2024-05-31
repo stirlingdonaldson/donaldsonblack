@@ -8,7 +8,7 @@ interface Props {
 
 function ListGroup(props: Props) {
 
-    let items = ['New York','Auckland','Tokyo','Melbourne','Sydney'];
+    
     
     
     // HOOK!
