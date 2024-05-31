@@ -10,11 +10,12 @@ function ListGroup() {
     ];
     items = [];
 
+    const message = {items.length === 0 ? <p>No item found</p> : null} {/* if item is empty, return <p> else do nothing */}
    
     return (
         <>
             <h1>List</h1>
-            {items.length === 0 ? <p>No item found</p> : null} {/* if item is empty, return <p> else do nothing */}
+            {message}
         </>
     );
     
