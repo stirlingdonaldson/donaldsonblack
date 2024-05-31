@@ -20,7 +20,7 @@ function ListGroup() {
                     <li 
                         className={ selectedIndex === index ? 'list-group-item active' : 'list-group-item'} // way to add class dynamically
                         key={item} 
-                        onClick={() => selectedIndex = index }> {/* note this isn't being called rather handled, just referenced ??? */} 
+                        onClick={() => setSelectedIndex(index)}> {/* note this isn't being called rather handled, just referenced ??? */} 
                         
                         {item}
                     </li>) 
