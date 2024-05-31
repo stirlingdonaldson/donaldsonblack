@@ -3,12 +3,12 @@ import { useState } from "react";
 function ListGroup() {
 
     let items = ['New York','Auckland','Tokyo','Melbourne','Sydney'];
-    let selectedIndex = 0; /* -1 shows that no item has been selected, as 0 is first item*/
+    
     
     // HOOK!
     const [selectedIndex, setSelectedIndex] = useState(-1);
-    arr[0] // variable (selectedIndex)
-    arr[1] // updater function (setSelectedIndex)
+
+   // const [name, setName] = useState('');
 
     return (
         <>
