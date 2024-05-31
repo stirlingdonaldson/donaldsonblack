@@ -1,6 +1,12 @@
 import { useState } from "react";
 
-function ListGroup() {
+
+interface Props {
+    items: string[];
+    heading: string;
+}
+
+function ListGroup(props: Props) {
 
     let items = ['New York','Auckland','Tokyo','Melbourne','Sydney'];
     
@@ -20,7 +26,7 @@ function ListGroup() {
                     <li 
                         className={ selectedIndex === index ? 'list-group-item active' : 'list-group-item'} // way to add class dynamically
                         key={item} 
-                        onClick={() => setSelectedIndex(index)}> {/* note this isn't being called rather handled, just referenced ??? */} 
+                        onClick={() => setSelectedIndex(index)}> 
                         
                         {item}
                     </li>) 
