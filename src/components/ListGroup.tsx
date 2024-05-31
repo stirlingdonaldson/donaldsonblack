@@ -6,9 +6,9 @@ function ListGroup() {
     let selectedIndex = 0; /* -1 shows that no item has been selected, as 0 is first item*/
     
     // HOOK!
-    const arr = useState(-1);
+    const [selectedIndex, setSelectedIndex] = useState(-1);
     arr[0] // variable (selectedIndex)
-    arr[1] // updater function 
+    arr[1] // updater function (setSelectedIndex)
 
     return (
         <>
