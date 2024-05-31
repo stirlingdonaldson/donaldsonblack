@@ -15,7 +15,14 @@ function ListGroup() {
             {items.length === 0 && <p>No item found</p>}
 
             <ul className="list-group">
-                { items.map(item => <li className="list-group-item" key={item} onClick={() => console.log("Clicked")}> {item}</li>) 
+                { items.map(item => 
+                    <li 
+                        className="list-group-item" 
+                        key={item} 
+                        onClick={() => console.log(item)}> 
+                        
+                        {item}
+                    </li>) 
 
 
                 /* This will return an array of JSX elements, where item is being turned into li elements
