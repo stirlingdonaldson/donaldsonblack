@@ -1,4 +1,3 @@
-import { MouseEvent } from "react";
 
 function ListGroup() {
 
@@ -13,9 +12,6 @@ function ListGroup() {
 
     let selectedIndex = 0; /* -1 shows that no item has been selected, as 0 is first item*/
 
-    // event handler
-    const handleClick = (event: MouseEvent) => console.log(event)
-
     return (
         <>
             <h1>List</h1>
@@ -26,7 +22,7 @@ function ListGroup() {
                     <li 
                         className={ selectedIndex === index ? 'list-group-item active' : 'list-group-item'} // way to add class dynamically
                         key={item} 
-                        onClick={handleClick}> {/* note this isn't being called rather handled, just referenced ??? */} 
+                        onClick={}> {/* note this isn't being called rather handled, just referenced ??? */} 
                         
                         {item}
                     </li>) 
