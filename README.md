@@ -1,5 +1,5 @@
 # Introduction
-This repo hosts the sourcce code for the website [donaldson.black](https://donaldson.black). It is created using `React` and `NextJs` build on a bun runtime. 
+This repo hosts the sourcce code for the website [donaldson.black](https://donaldson.black). It is created using `React` and `NextJs` built on a bun runtime. 
 
 ## Getting Started
 
