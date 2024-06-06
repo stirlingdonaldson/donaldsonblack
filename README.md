@@ -12,7 +12,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Deployment
 
-First, build the system using
+First, build the website using
 
 ```bash
 bun --bun run build
@@ -23,3 +23,5 @@ Then, start the production server
 ```bash
 bun --bun run start
 ```
+
+Then, open the webserver at [http://localhost:3000](http://localhost:3000) or wherever your website is hosted
