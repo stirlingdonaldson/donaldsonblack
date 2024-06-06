@@ -12,6 +12,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Deployment
 
+### Bun Server
+
 First, build the website using
 
 ```bash
@@ -25,3 +27,17 @@ bun --bun run start
 ```
 
 Then, open the webserver at [http://localhost:3000](http://localhost:3000) or wherever your website is hosted
+
+### Docker Container
+
+First build the image
+
+```bash
+docker build -t donaldsonblack .
+```
+
+Then deploy the image
+
+```bash
+docker run donaldsonblack
+```
