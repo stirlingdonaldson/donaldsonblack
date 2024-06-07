@@ -2,6 +2,14 @@
 const config = {
   plugins: {
     tailwindcss: {},
+    images: {
+      remotePatterns: [
+        {
+          protocol: "https",
+          hostname: "images.unsplash.com",
+        },
+      ],
+    },
   },
 };
 
