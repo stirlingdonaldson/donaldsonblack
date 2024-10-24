@@ -6,13 +6,10 @@
 > Source code of photography portfolio of Stirling Donaldson and Harrison Black
 
 ### Usage
-Make sure to install deno
-
-Then start the project:
+The project utilises the deno runtime, to start the project use;
 
 ```bash
 deno task start
 
 ```
-
-This will also watch files and realod on save
+This watch files and reload on change
