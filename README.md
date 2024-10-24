@@ -12,4 +12,4 @@ The project utilises the deno runtime, to start the project use;
 deno task start
 
 ```
-This watch files and reload on change
+This also watches files and reloads on change
